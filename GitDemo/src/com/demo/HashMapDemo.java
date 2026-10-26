@@ -12,6 +12,8 @@ public class HashMapDemo {
 		hashMap.put(30, "Pankaj");
 		hashMap.put(20, "Abhijit");
 
+		//comment 
+		
 		System.out.println("Before Sorting : " + hashMap);
 
 		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>(hashMap);
